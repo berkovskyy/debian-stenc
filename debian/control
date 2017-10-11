@@ -1,0 +1,16 @@
+Source: stenc
+Section: admin
+Priority: optional
+Maintainer: Denys Berkovskyy <berkovskyy@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.0
+Homepage: https://sourceforge.net/projects/stenc/
+
+Package: stenc
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: SCSI Tape Encryption Manager
+ Stenc manages encryption on capabale LTO tape drives with hardware-based
+ encryption. Program should work on any other SSP capable tape drives. Built
+ specifically for Linux and AIX. Now supports key change auditing and key
+ descriptors (uKAD).
