@@ -1,0 +1,13 @@
+From: Denys Berkovskyy <berkovskyy@gmail.com>
+Date: Wed, 11 Oct 2017 17:24:18 +0100
+Subject: Rename configure.in to configure.ac for Automake 2.0
+
+---
+ configure.in => configure.ac | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename configure.in => configure.ac (100%)
+
+diff --git a/configure.in b/configure.ac
+similarity index 100%
+rename from configure.in
+rename to configure.ac
