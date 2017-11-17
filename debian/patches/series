@@ -1,2 +1,3 @@
 0001-Fix-manpage-typo.patch
 0002-Rename-configure.in-to-configure.ac-for-Automake-2.0.patch
+0003-Fix-inclusion-of-standard-headers-on-non-linux-syste.patch
