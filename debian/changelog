@@ -1,3 +1,14 @@
+stenc (1.0.7-2) unstable; urgency=medium
+
+  * Bump standards version to 4.1.1. Switch to the https form of
+    the copyright-format URL in the Format field of debian/copyright file.
+  * Add patches to fix lintian warnings (fix typo in manpage and
+    rename configure.in to configure.ac)
+  * Add patch to fix inclusion of standard headers on
+    non-linux systems (Closes: #881781)
+
+ -- Denys Berkovskyy <berkovskyy@gmail.com>  Fri, 17 Nov 2017 03:37:49 +0000
+
 stenc (1.0.7-1) unstable; urgency=medium
 
   * Initial release. (Closes: #858087)
