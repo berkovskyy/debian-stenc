@@ -1,3 +1,6 @@
 0001-Fix-manpage-typo.patch
 0002-Rename-configure.in-to-configure.ac-for-Automake-2.0.patch
 0003-Fix-inclusion-of-standard-headers-on-non-linux-syste.patch
+0004-Remove-generated-files-add-autogen.sh-script-prepara.patch
+0005-Update-AC_INIT-and-AM_INIT_AUTOMAKE-invocations-in-c.patch
+0006-Initial-port-to-FreeBSD.patch
