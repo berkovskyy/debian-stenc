@@ -4,3 +4,4 @@
 0004-Remove-generated-files-add-autogen.sh-script-prepara.patch
 0005-Update-AC_INIT-and-AM_INIT_AUTOMAKE-invocations-in-c.patch
 0006-Initial-port-to-FreeBSD.patch
+0007-Import-double-free-bug-fix-from-upstream-git.patch

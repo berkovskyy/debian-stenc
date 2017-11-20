@@ -1,0 +1,20 @@
+From: Denys Berkovskyy <berkovskyy@gmail.com>
+Date: Mon, 20 Nov 2017 20:08:33 +0000
+Subject: Import double free bug fix from upstream git
+
+---
+ src/scsiencrypt.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/scsiencrypt.cpp b/src/scsiencrypt.cpp
+index bd4f10c..e17b335 100644
+--- a/src/scsiencrypt.cpp
++++ b/src/scsiencrypt.cpp
+@@ -184,6 +184,7 @@ SSP_NBES* SSPGetNBES(string tapeDevice,bool retry){
+ 			if(status->nbes.encryptionStatus!=0x01)break;
+ 			if(moves>=MAX_TAPE_READ_BLOCKS)break;
+ 			delete status;
++			status=NULL; //double free bug fix provided by Adam Nielsen
+ 			if(!moveTape(tapeDevice,1,true))break;
+ 			moves++;
+ 			status=SSPGetNBES(tapeDevice,false);
