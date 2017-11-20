@@ -1,3 +1,12 @@
+stenc (1.0.7-3) unstable; urgency=medium
+
+  * Add patches which enable compilation of stenc on kfreebsd architecture.
+    The changes include addition of FreeBSD detection to configure.ac and
+    modification of source code to use FreeBSD specific includes.
+  * Add patch which fixes double free bug (import from upstream git)
+
+ -- Denys Berkovskyy <berkovskyy@gmail.com>  Mon, 20 Nov 2017 20:10:11 +0000
+
 stenc (1.0.7-2) unstable; urgency=medium
 
   * Bump standards version to 4.1.1. Switch to the https form of
